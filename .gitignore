@@ -19,8 +19,8 @@
     *.Trashes
 
     # All platforms
-    Library
-    Temp
+    "New Unity Project/Library"
+    "New Unity Project/Temp"
     *.csproj
     *.pidb
     *.unityproj
