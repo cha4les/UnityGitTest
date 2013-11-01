@@ -400,6 +400,7 @@ GameObject:
   - 33: {fileID: 1056001300}
   - 65: {fileID: 1056001299}
   - 23: {fileID: 1056001298}
+  - 114: {fileID: 1056001302}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: Untagged
@@ -455,6 +456,17 @@ Transform:
   m_LocalScale: {x: .5, y: .5, z: .5}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1056001302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1056001297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a15eee418835c4399a1b16dd34a370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1119859944
 GameObject:
   m_ObjectHideFlags: 0
