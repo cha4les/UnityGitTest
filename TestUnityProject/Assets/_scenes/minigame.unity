@@ -382,6 +382,7 @@ GameObject:
   - 4: {fileID: 1765795462}
   - 33: {fileID: 1765795461}
   - 135: {fileID: 1765795460}
+  - 54: {fileID: 1765795463}
   - 23: {fileID: 1765795459}
   m_Layer: 0
   m_Name: Player
@@ -438,3 +439,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!54 &1765795463
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765795458}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
