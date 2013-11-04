@@ -4,11 +4,13 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
 	public float speed;
+	public GUIText countText;
 	private int count;
 	
 	void Start()
 	{
 		count = 0;
+		SetCountText();
 	}
 
 	void FixedUpdate()
@@ -27,6 +29,14 @@ public class PlayerController : MonoBehaviour
 		{
 			other.gameObject.SetActive(false);
 			count++;
+			SetCountText();
+
 		}
 	}
+	
+	void SetCountText()
+	{
+		countText.text = "Count: " + count.ToString();
+	}
+
 }
