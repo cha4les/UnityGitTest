@@ -4,6 +4,12 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
 	public float speed;
+	private int count;
+	
+	void Start()
+	{
+		count = 0;
+	}
 
 	void FixedUpdate()
 	{
@@ -20,6 +26,7 @@ public class PlayerController : MonoBehaviour
 		if( other.gameObject.tag == "Pickup" )
 		{
 			other.gameObject.SetActive(false);
+			count++;
 		}
 	}
 }
